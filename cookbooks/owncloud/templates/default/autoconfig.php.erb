@@ -1,0 +1,12 @@
+<?php
+$AUTOCONFIG = array(
+  "dbtype"        => '<%= "mysql" %>',
+  "dbname"        => '<%= node["owncloud"]["db_name"] %>',
+  "dbuser"        => '<%= node["owncloud"]["db_user"] %>',
+  "dbpass"        => '<%= node["owncloud"]["db_password"] %>',
+  "dbhost"        => 'localhost',
+  "dbtableprefix" => 'oc_',
+  "adminlogin"    => 'admin',
+  "adminpass"     => '<%= node["owncloud"]["admin_password"] %>',
+  "directory"     => '<%= node["owncloud"]["data_dir"] %>',
+);
