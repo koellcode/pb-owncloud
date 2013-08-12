@@ -10,11 +10,15 @@ please make sure that you have VirtualBox and Vagrant installed.
 
 clone this repo with
  
-    $ git checkout https://github.com/koellcode/pb-owncloud
+    $ git clone https://github.com/koellcode/pb-owncloud
 
 jump in the cloned folder
 
     $ cd pb-owncloud
+    
+init and update the submodules
+
+    $ git pull && git submodule init && git submodule update && git submodule status
 
 start vagrant
 
