@@ -10,7 +10,7 @@ please make sure that you have VirtualBox and Vagrant installed.
 
 clone this repo with
  
-    $ git checkout https://github.com/koellcode/pb-owncloud
+    $ git clone https://github.com/koellcode/pb-owncloud
 
 jump in the cloned folder
 
