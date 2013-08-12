@@ -15,6 +15,10 @@ clone this repo with
 jump in the cloned folder
 
     $ cd pb-owncloud
+    
+init and update the submodules
+
+    $ git pull && git submodule init && git submodule update && git submodule status
 
 start vagrant
 
